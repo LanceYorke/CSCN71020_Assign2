@@ -74,6 +74,7 @@ void setLength(int input, int *length) {
 	if (input >= 0 && input < 100) {
 		*length = input;
 	}
+	return *length;
 }
 
 void setWidth(int input, int *width) {
