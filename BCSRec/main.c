@@ -81,6 +81,7 @@ void setWidth(int input, int *width) {
 	if (input > 0 && input <= 100) {
 		*width = input;
 	}
+	return *width;
 }
 
 int getPerimeter(int *length, int *width) {
